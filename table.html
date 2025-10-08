@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Лабораторная работа</title>
+        <link rel ="stylesheet" href="css/table.css">
+        <!--Marmelad-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+        <!--Ubuntu Sans-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <!--Istok Web-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c:wght@500&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <ul class="menu_list">
+                    <li><a href="index.html">Основная страница</a></li>
+                    <li><a href="page2.html">Позиционирование элементов</a> </li>
+                    <li><a href="table.html">Таблица</a> </li>
+                </ul>
+            </nav>
+        </header> 
+        <form id="my_form">
+            <fieldset>
+                <legend>Форма для добавления студента</legend>
+                <div class="form-group">
+                    <label for="id">Id студента</label>
+                    <input type="number" id="id" name="id" >
+                </div>
+                <div class="form-group"></div>
+                    <label for="fname">ФИО студента</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="form-group">
+                    <label for="fnumber">Номер группы</label>
+                    <input type="number" id="fnumber" name="fnumber">
+                </div>
+                <div class="form-group">
+                    <label for="fnumber_1">Номер зачётной книжки</label>
+                    <input type="number" id="fnumber_1" name="fnumber_1">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Пол</label>
+                    <input type="radio" id="men" name="gender" value="М">
+                    <label for="men">М</label>
+                    <input type="radio" id="woman" name="gender" value="Ж">
+                    <label for="woman">Ж</label>
+                </div>
+                <div class="form-group">
+                    <label for="age">Возраст</label>
+                    <input type="number" id="age" name="age">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Добавить">
+                </div>
+            </fieldset>
+        </form>
+        <table id = "my_table">
+            <caption>Информация о студентах</caption>
+            <tr>
+                <th>ID</th>
+                <th>ФИО студента</th>
+                <th>Номер группы</th>
+                <th>Номер зачётной книжки</th>
+                <th>Пол</th>
+                <th>Возраст</th>
+
+            </tr>
+            <tr class="tr_2">
+                <td>1</td>
+                <td>Антонов Антон Антонович</td>
+                <td>1</td>
+                <td>123</td>
+                <td>М</td>
+                <td>20</td>
+            </tr>
+            <tr class="tr_3">
+                <td>2</td>
+                <td>Беликн Борис Борисович</td>
+                <td>2</td>
+                <td>124</td>
+                <td>М</td>
+                <td>19</td>
+            </tr>
+            <tr class="tr_4">
+                <td>3</td>
+                <td>Кошкина Ксения Константиновна</td>
+                <td>1</td>
+                <td>125</td>
+                <td>Ж</td>
+                <td>21</td>
+            </tr>
+            <tr class="tr_5">
+                <td>4</td>
+                <td>Малинова Мариня Максимовна</td>
+                <td>2</td>
+                <td>125</td>
+                <td>Ж</td>
+                <td>20</td>
+            </tr>
+            <tr class="tr_6">
+                <td>5</td>
+                <td>Петров Пётр Пертович</td>
+                <td>2</td>
+                <td>126</td>
+                <td>М</td>
+                <td>21</td>
+            </tr>
+            <tr class="tr_7">
+                <td>6</td>
+                <td>Рыбов Ростислав Русланович</td>
+                <td>1</td>
+                <td>127</td>
+                <td>М</td>
+                <td>19</td>
+            </tr>
+        </table>
+        <script src="js/script.js"></script>
+    </body>
+</html>

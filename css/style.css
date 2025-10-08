@@ -1,0 +1,227 @@
+/*Обнуление*/
+*{margin: 0; padding: 0; border: 0; }
+ul, li {list-style: none;}
+img{vertical-align: top;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+nav,header{display: block;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+header {
+    display: flex;
+    background-color: rgba(190, 171, 227, 0.724);
+    flex-direction: row;  
+    width: 100%;
+    justify-content: flex-end; 
+}
+
+.menu {
+ 
+}
+
+.menu_list {
+    display: flex;
+ 
+}
+
+.menu_list a {
+    display: flex; 
+    font-family: Marmelad;
+    padding: 20px; 
+    font-size: 20px;
+    color: #ffffff;
+    
+
+}
+.menu_list :hover{
+    color: #2a0034;
+}
+/*---------------------------------------------------------------------------------*/
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('02.jpg');
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+/*-------------------------------------------------------------------------------*/
+.wrapper{
+    display: flex;
+    flex-direction: row;  
+}
+.content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+    border: 4px; 
+    border-radius: 2%;
+    background-color: rgba(207, 146, 228, 0.711);
+    flex-direction: row;  
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Sofia Sans; 
+    text-align: justify;
+    color: #ffffff;
+}
+.content-right{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.content-left h1{
+    color: #471b3f;
+}
+
+.content-left h2{
+    color: #351b47;
+}
+
+img{
+    width: 60%;
+    border-radius: 4%;
+    border: 4px, #ffffff, solid;
+}
+
+h1,h2{
+    font-family: Marmelad;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px; 
+    font-size: 30px;
+    font-family: Marmelad;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------------*/
+.container {
+    display: flex; 
+    width: 100%;
+    height: 500px; 
+    background-color: rgba(130, 65, 137, 0.55);
+    flex-direction: column;
+}
+
+.block {
+    background-color: rgb(212, 175, 240);
+    width: 200px;
+    height: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+
+}
+
+.img_1{
+    display: block; 
+    width: 200px;
+    height: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-------------------------------------------------------------------------------*/
+.container-2 {
+    display: flex; 
+    width: 100%;
+    height: 500px; 
+    background-color: rgba(137, 65, 77, 0.55);
+    align-items: center;
+}
+
+.block-2 {
+    background-color: rgb(240, 175, 200);
+    width: 200px;
+    height: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------------------------------------------------------------------------*/
+.container-3 {
+    display: flex; 
+    width: 100%;
+    height: 500px; 
+    background-color: rgba(79, 65, 137, 0.55);
+    border: solid, 5px;
+    border-color: rgb(143, 123, 221);
+    flex-wrap: wrap;
+}
+.block-3 {
+    background-color:  rgb(188, 175, 240);
+    width: 200px;
+    height: 200px; 
+    margin: 10px;
+}
+
+/*-------------------------------------------------------------------------------*/
+.container-4 {
+    display: flex; 
+    width: 100%;
+    height: 700px; 
+    background-color: rgba(23, 66, 98, 0.676);
+    border: solid, 5px;
+    border-color: rgb(123, 185, 221);
+   
+}
+.block-4 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 275px;
+    width: 200px;
+    height: 200px; 
+    border: solid, 5px;
+    border-color: rgb(145, 221, 221);
+  
+}
+.block-5 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px; 
+    border: solid, 5px;
+    border-color: rgb(194, 160, 235);
+  
+}
+.block-6 {
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 525px;
+    width: 200px;
+    height: 200px; 
+    border: solid, 5px;
+    border-color: rgb(237, 248, 182);
+  
+}
+
+/*-------------------------------------------------------------------------------*/
+.cat{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+  
+
+}
+.cat_cat{
+    position: fixed;
+    bottom: 10px; 
+    width: 100px;
+    height: 100px;
+}

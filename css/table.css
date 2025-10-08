@@ -1,0 +1,152 @@
+/*Обнуление*/
+*{margin: 0; padding: 0; border: 0;}
+ul, li {list-style: none;}
+img{vertical-align: top;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+nav,header{display: block;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+header {
+    display: flex;
+    background-color: rgba(190, 171, 227, 0.724);
+    flex-direction: row;  
+    width: 100%;
+    justify-content: flex-end; 
+}
+
+.menu {
+ 
+}
+
+.menu_list {
+    display: flex;
+}
+
+.menu_list a {
+    display: flex; 
+    font-family: Marmelad;
+    padding: 20px; 
+    font-size: 20px;
+    color: #ffffff;
+}
+.menu_list :hover{
+    color: #2a0034;
+}
+/*---------------------------------------------------------------------------------*/
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('1.jpg');
+    flex-direction: column;  
+    
+}
+/*-----------------------------------------------------------------------------------------*/
+form {
+    margin-bottom: 15px;
+    width: 40%;
+}
+.form-group{
+       
+}
+fieldset {
+    border: 3px solid #ffffffa8;
+    padding: 10px;
+    margin: 30px;
+    background-color: #2a00345b;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 25px;
+    font-family: Marmelad;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+label {
+    font-size: 20px;
+    font-family: Istok Web;
+    color: #ffffff;
+    margin-right: 10px;
+   
+    width: 200px; /* Фиксированная ширина для меток */
+}
+
+input[type="text"],input[type="number"] {
+   
+    margin: 10px;
+    padding: 10px;
+    font-family: Ubuntu Sans;
+    font-size: 15px;
+    background-color: #e0c1e972;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #bda2bf;
+    color: white;
+    font-family: Ubuntu Sans;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: #56455b;
+}
+
+/*-------------------------------------------------------------------------------*/
+table{
+    width: auto;
+    margin: 30px; 
+}
+table, th, td {   
+    border: 3px solid #ffffffa8;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-family: Ubuntu Sans;
+    font-size: 25px;
+}
+td {
+    color: #ffffff;
+    font-family: Istok Web;
+    font-size: 20px; 
+}
+/*--------------------------------------------------------------*/
+tr {
+    background-color: rgba(209, 139, 227, 0.942);
+}
+.tr_2{
+    background-color: rgba(243, 167, 167, 0.769);
+}
+.tr_3{
+    background-color: rgba(124, 56, 113, 0.769);
+}
+.tr_4{
+    background-color: rgba(211, 200, 137, 0.769);
+}
+.tr_5{
+    background-color: rgba(102, 162, 150, 0.769);
+}
+.tr_6{
+    background-color: rgba(8, 125, 151, 0.769);
+}
+.tr_7{
+    background-color: rgba(151, 40, 188, 0.769);
+}
+/*-------------------------------------------------------------------------------*/
+caption{
+    color: #ffffff;
+    font-family: Marmelad;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+}
